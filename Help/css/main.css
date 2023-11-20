@@ -1,0 +1,79 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    overflow-y: scroll;
+}
+
+h6,
+h4 {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.nav-link {
+    width: auto !important;
+    margin-top: 1rem;
+    margin: 0.2rem;
+    color: white !important;
+    background-color: grey !important;
+}
+
+:hover .nav-link {
+    color: black;
+}
+
+.bg-foot {
+    background-color: hsl(216, 25%, 95.1%);
+}
+
+.active {
+    color: white !important;
+    background-color: grey !important;
+}
+.img-fluid{
+    margin-bottom: 1rem;
+}
+p{
+    margin: 0;
+}
+
+.callout-info {
+    --bd-callout-color: var(--bs-info-text-emphasis);
+    --bd-callout-bg: var(--bs-info-bg-subtle);
+    --bd-callout-border: var(--bs-info-border-subtle);
+}
+.callout-success {
+    --bd-callout-color: var(--bs-sucess-text-emphasis);
+    --bd-callout-bg: var(--bs-success-bg-subtle);
+    --bd-callout-border: var(--bs-success-border-subtle);
+}
+.callout-danger {
+    --bd-callout-color: var(--bs-danger-text-emphasis);
+    --bd-callout-bg: var(--bs-danger-bg-subtle);
+    --bd-callout-border: var(--bs-danger-border-subtle);
+}
+
+.callout{
+    --bs-link-color-rgb: var(--bd-callout-link);
+    --bs-code-color: var(--bd-callout-code-color);
+    padding: 0.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--bd-callout-color, inherit);
+    background-color: var(--bd-callout-bg, var(--bs-gray-100));
+    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+
+#navbar-context{
+    overflow-y:scroll;
+}

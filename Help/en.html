@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav id="navbar-example2" class="navbar bg-light px-3 mt-1">
+		<img class="navbar-brand" src="./images/e05ywe7n5wvo87kg10bpkrpd4s4s180k.png" alt="1" />
+		<div class=" col-6 text-center">
+			<p>TECHNOAC PROGRAM HELP</p>
+		</div>
+		<div class="d-flex justify-content-end"> <a class="btn btn-secondary" href="./ru.html">Ru</a></div>
+	</nav>
+	<div class="ml-2 d-flex justify-content-end">
+		<div class="col-3 d-block">
+			<div class="position-sticky top-0  ml-15">
+				<nav id="navbar-context"
+					class="nav nav-pills color-warning flex-column text-sm h-100 flex-column align-items-stretch pe-4 border-end mt-2  p-1">
+
+					<li class="nav-item">
+						<a class="nav-link" href="#item-1">1. System requirements</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#item-2">2. Program Description</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#item-3">3. Using the program</a></li>
+					<nav class="nav nav-pills flex-column ">
+						<a class="nav-link ms-3 my-1" href="#item-3-1">3.1 Program interface</a>
+					</nav>
+					<nav class="nav nav-pills flex-column ">
+						<a class="nav-link ms-3 my-1" href="#item-3-2">3.2 Connecting AP-19.4</a>
+					</nav>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link ms-3 my-1" href="#item-3-3">3.3 Viewing points</a>
+					</nav>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link ms-3 my-1" href="#item-3-4">3.4 Interaction with the data table</a>
+					</nav>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link ms-3 my-1" href="#item-3-5">3.5 Interaction with the map</a>
+					</nav>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link ms-3 my-1" href="#item-3-6">3.6 Track saving</a>
+					</nav>
+					<nav class="nav nav-pills flex-column">
+						<a class="nav-link ms-3 my-1" href="#item-3-7">3.7 Viewing a track on an Android device</a>
+					</nav>
+					<li class="nav-item"><a class="nav-link" href="#item-4">4. About us</a></li>
+
+				</nav>
+			</div>
+		</div>
+		<div class="col-9 pr-2">
+			<div data-bs-spy="scroll" data-bs-target="#navbar-context" data-bs-offset="0" class="scrollspy"
+				tabindex="0">
+				<hr />
+				<div class="p-2">
+<h4 id="item-1">1. System requirements</h4>
+					<table class="table">
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Operating system</td>
+								<td>Windows 8.1 32/64 Bit, Windows 8 32/64 Bit, Windows 7 32/64
+									Bit, Windows Vista 32/64 Bit, Windows 10 32/64 Bit</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>CPU</td>
+								<td>Intel Core 2 Duo or Phenom II x4/x6 and higher</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+<td>RAM</td>
+								<td>2 GB</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+<td>Hard disk space</td>
+								<td>250 MB</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<hr />
+				<div class="p-2">
+					<h4 id="item-2">2. Program Description</h4>
+					<p>This program is designed to read saved points from AP-019 devices (except AP-019.1, AP-019.3, AP-019.4), display
+						they are on the map, editing the relationship between points (building a track), saving the track in
+						database, as well as in KML, CSV, XLSX formats. All the read points are saved to the database.
+						The database is stored in a folder with an executable exe file. The database name is "Record.sqlite".</p>
+				</div>
+				<hr />
+				<div class="p-2">
+<h4 id="item-3">3. Usage</h4>
+					<div>
+						<h6 id="item-3-1">3.1 Program interface</h6>
+						<div class="mt-4 mb-3">
+							<img class="img-fluid" src="./images/image002.png" />
+						</div>
+						<p>The main interface of the program consists of the following elements:
+<ul>
+							<li><strong>The </strong> toolbar provides quick access to frequently used
+								tools and consists of the following buttons:
+<ul>
+									<li><img src="../images/hide2.png" height="25" width="25"> Hide points from map
+										</6li>
+									<li><img src="../images/deletePoint2.png" height="25" width="25"> Delete points</li>
+									<li><img src="../images/addTrack2.png" height="25" width="25"> Save track</li>
+									<li><img src="../images/kml2.png" height="25" width="25">Export selected
+										points</li>
+									<li><img src="../images/help2.png" height="25" width="25">Help</li>
+									<li>Internet access status:
+										<p class="mt-2 mb-0"><img src="../images/link.png" height="25" width="25"> -
+Access to
+											internet is present</p>
+										<p><img src="../images/linkoff.png" height="25" width="25"> - No access to
+											internet</p>
+									</li>
+								</ul>
+							</li>
+							<li><strong> The data table </strong> displays the saved points as a table. Points
+								you can select with the mouse and keyboard and perform operations with them from the panel
+								tools</li>
+							<li><strong>The filter panel</strong> is used to search for points using
+								filters.
+
+							</li>
+							<li><strong>The map</strong> serves as an interactive element for working with selected points.
+							</li>
+						</ul>
+
+					</div>
+					<div>
+						<h6 id="item-3-2">3.2 Connecting AP-19.4</h6>
+						<div>
+							<p> When the AP-019 tracer is connected for the first time, a window opens in which you need to set
+								device name.
+								The selected name will be displayed together with the number in the list of devices in the "Filter Panel".
+								The device name can also be changed as follows:</p>
+							<ol>
+								<li>Connect the device</li>
+								<li>Click on the status button in the toolbar</li>
+								<li>Click <img src="../images/edit.png" height="25" width="25" /> (enter edit mode)
+</li>
+								<li>Enter a new device name in the name line</li>
+								<li>Click <img src="../images/edit.png" height="25" width="25" /> (if the frame is red, then such a name exists, enter a new name) </li>
+							</ol>
+							<div class="ms-5 ps-4">
+								<img class="img-fluid " src="./images/deviceSettings.png" />
+							</div>
+
+						</div>
+						<h6 id="item-3-3">3.3 Viewing points</h6>
+<div class="mt-4 mb-3">
+<img class="img-fluid" src="./images/image003.png" />
+</div>
+						<p></p>
+						<ol>
+							<li>In the "Filter Panel", select the device you need and the time for removing points.</li>
+							<li>Also in the "Filter Panel" you can choose a convenient data filter:
+								<ul>
+									<li>By frequency</li>
+									<li>By external sensor</li>
+									<li>By country</li>
+									<li>By city</li>
+									<li>Down the street </li>
+									<li>By saved tracks </li>
+								</ul>
+							</li>
+							<li> After selecting the necessary filter, click
+								<button class="btn btn-warning text-12 p-2">Apply</button>
+								<p class="m-0">The removed ones will appear in the table
+									points, and if there is internet access,
+it will display
+									track on the map.</p>
+							</li>
+							<li> By double-clicking on a point on the map, its parameters will appear.
+							</li>
+							<li>To view the map in full-screen mode, click 
+								<img src="../images/arrowLeft.png" /> which hides the table.</li>
+						</ol>
+						</ul>
+					</div>
+					<div>
+						<h6 id="item-3-4"> 3.4 Interaction with the data table</h6>
+<p>Using the data table, you can select points to highlight them on the map or perform
+							action using the toolbar.</p>
+						<p><strong> Selection of points:</strong>
+						<ul>
+							<li>You can select or deselect one point using the left mouse button.</li>
+							<li>You can select or deselect several points by pressing CTRL + LMB on the desired points.</li>
+							<li>Selecting or deselecting several consecutive points is carried out by selecting the starting point and
+								by pressing SHIFT + LMB on the endpoint. </li>
+						</ul>
+						</p>
+						<p>Actions with dots:
+						<ul>
+							<li>To hide the selected points from the map and data table, use the button <img src="../images/hide2.png" height="30" width="30"></li>
+							<li>To delete a point from the database, use the button <img src="../images/deletePoint2.png" height="30" width="30"></li>
+							<li>To add a new track, click <img src="../images/addTrack2.png" height="30" width="30"> and enter the track name.</li>
+						</ul></p>
+					</div>
+					<div>
+						<h6 id="item-3-5">3.5 Interaction with the map</h6>
+<p> <ul>
+						<li>Moving around the map takes place using the LMB and moving the mouse in the opposite direction to the desired direction. </li>
+							<li>The map scale is changed by the mouse wheel. The angle of the map is changed using CTRL + mouse wheel.</li> 
+								<li>The map is rotated using SHIFT + mouse wheel. </li>
+									<li>Selecting and deselecting a point on the map is done by pressing the LMB on the desired point.</li>
+										<li>Viewing measurements at a point on the map takes place by double-clicking on the desired point.</li>
+						</ul></p>
+						<h6 id="item-3-6">3.6 Saving a track</h6>
+<p>You can save the track in KML, in XLSX, in CSV format.</p>
+						<p>To save to a file, select the desired points and click <img src="../images/kml2.png" height="30" width="30"
+alt="1"></p>
+						<p>Next, select the format in which you want to save:</p>
+						<img class="img-fluid" src="./images/exportScreen.png">
+						<p>
+						<h6 id="item-3-7">3.7 Viewing a track on an Android device</h6>
+Using an Android device, you can determine the location of communication with
+							accuracy
+							up to 15 meters.</p>
+						<ul>
+							<li>Save the track in KML format.</li>
+							<li>Download the GPX Viewer app to your android device, and also transfer the saved KML file to your android device.</li>
+							<li>Open the KML file using the GPX Viewer application.</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+				<div class="p-2">
+					<h4 id="item-4">4. About us</h4>
+					<p>
+						The TECHNO-AS Group of Companies has been in existence since 1992. Having once started with the production of pyrometers,
+						contact thermometers and tracerouting receivers, we continue to this day
+						develop new devices that meet all international requirements.
+						Over its long history, our products have been awarded almost four hundred different
+						awards and titles. </p>
+					<p>Today, TECHNO-AS is a group of companies that develops,
+						production and sale of various non-destructive testing devices. The main
+						the areas of work of "TECHNO-AS" is the production of tracerouting equipment,
+						temperature and humidity measuring devices, as well as the production of electrical
+						autolab. </p>
+					<p>Our specialists have developed a multi-level quality control system for the manufactured
+						products that exclude marriage. Additionally, quality control is carried out by
+						introduction of the concept of lean production.
+						We are exporters of our own products abroad. Our devices have already been successfully
+						they work in 21 countries of the world.</p>
+					<p>Our distributors throughout Russia are always ready to help with the choice of the device, to conduct training
+						and provide full warranty service for all buyers of TECHNO-AS devices.
+						Products manufactured by the TECHNO-AS group of companies: Temperature meters and recorders,
+						Cable detectors, Contact thermometers, Thermal imaging systems,Leak detectors ,
+						Tracers, tracers, Electrical auto laboratories.
+						Our devices are certified for use not only in Russia, but also in all countries
+						Customs Union of the EAEU. </p>
+					<p>You can see the full list of certificates for our equipment in
+the corresponding section.</p>
+					<h6>Contacts:</h6>
+					<div class="ms-3">
+						<ul class="list-unstyled">
+							<li class="pt-2 m-0">
+								<p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+										class="bi bi-envelope" viewBox="0 0 20 20">
+										<path
+											d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+									</svg>ntc@technoac.com</p>
+							</li>
+							<li class="p-0 m-0">
+								<p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+										class="bi bi-telephone" viewBox="0 0 20 20">
+										<path
+											d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+									</svg>+7 (495) 258-86-46</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<hr />
+			</div>
+		</div>
+	</div>
+	<footer class="pl-2 bg-foot  mt-5 ">
+		<div class="d-flex justify-content-center">
+			<p class=" w-100 text-center p-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+					fill="currentColor" class="bi bi-c-circle" viewBox="0 0 20 20">
+					<path
+						d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+				</svg>TECHNO-AC</p>
+		</div>
+
+	</footer>
+</body>
+
+</html>
