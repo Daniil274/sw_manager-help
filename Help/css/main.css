@@ -74,6 +74,10 @@ p{
     border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
 }
 
-#navbar-context{
-    overflow-y:scroll;
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+.contact-info svg {
+    margin-right: 0.5rem; /* Adjust the space between the icon and the text */
 }
